@@ -1,5 +1,6 @@
 //Simone Cimolato, 29/07/2016.
-//Paradosso (in)finito
+//(In)finite paradox
+//main.cpp
 
 #include <iostream>
 #include <windows.h>
