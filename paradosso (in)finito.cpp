@@ -14,7 +14,7 @@ string scelta;
 int main() {
 
 
-cout<<"esecuzione n:     "<<"tempo (ms):"<<endl;
+cout<<"operation n:     "<<"time (ms):"<<endl;
 cout<<endl;
 
 while (tempo!=0){
@@ -26,10 +26,10 @@ while (tempo!=0){
 
 tot= (a-1);
 cout<<endl;
-cout <<"esecuzioni totali: "<< tot<<endl;
+cout <<"Total operations: "<< tot<<endl;
 cout<<endl;
 fine:
-cout<<"Vuoi ricominciare?  (Y) Yes. (N) No. : ";
+cout<<"Do you want to restart the program?  (Y) Yes. (N) No. : ";
 cin>>scelta;
 if (scelta=="Y" or scelta=="y") {
 	tempo=2000;
@@ -42,7 +42,7 @@ else if(scelta=="N" or scelta=="n") {
 return (0);	
 }
 else if (scelta !="Y" and scelta!="y" and scelta!="N" and scelta !="n") {
-	cout<<"imput non valido"<<endl;
+	cout<<"Invalid input "<<endl;
 	cout<<endl;
 	goto fine;
 	}
