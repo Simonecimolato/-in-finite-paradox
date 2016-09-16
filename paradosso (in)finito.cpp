@@ -40,7 +40,7 @@ if (scelta=="Y" or scelta=="y") {
 else if(scelta=="N" or scelta=="n") {
 return (0);	
 }
-else if (scelta !="Y" and scelta!="y" and scelta!="N" and scelta !="n") {
+else {
 	cout<<"Invalid input "<<endl;
 	cout<<endl;
 	goto fine;
