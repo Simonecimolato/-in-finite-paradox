@@ -16,10 +16,10 @@ cout<<"operation n:     "<<"time (ms):"<<endl;
 cout<<endl;
 
 while (tempo!=0){
-		Sleep(tempo);
-		cout << a <<"                 " << tempo << endl;
-		tempo = tempo/2;
-		a++;
+	Sleep(tempo);
+	cout << a <<"                 " << tempo << endl;
+	tempo = tempo/2;
+	a++;
 	}
 
 tot= (a-1);
