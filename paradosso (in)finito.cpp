@@ -10,11 +10,8 @@ using namespace std;
 
 long double tempo=1000;
 int a=0,tot;
-string scelta;
 
 int main() {
-
-
 cout<<"operation n:     "<<"time (ms):"<<endl;
 cout<<endl;
 
@@ -29,6 +26,7 @@ tot= (a-1);
 cout<<endl;
 cout <<"Total operations: "<< tot<<endl;
 cout<<endl;
+string scelta;
 fine:
 cout<<"Do you want to restart the program?  (Y) Yes. (N) No. : ";
 cin>>scelta;
